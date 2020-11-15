@@ -1,0 +1,42 @@
+body {
+  	background-color:rgb(180, 170, 180);
+	
+	//background-image: url('image.jpg');
+ 	//background-repeat: no-repeat;
+  	//background-attachment: fixed;  
+  	//background-size: cover;	
+}
+
+form{
+	font-size:150%
+}
+
+input{
+	font-size:120%
+}
+
+textarea{
+	font-size:120%
+
+}
+
+h1 {
+  	font-family:sans-serif;	
+	color: black;	  
+}
+
+p {
+ 	text-align: center; 
+	font-size:160%;
+}
+
+a:visited, a:hover{
+  color: black;
+}
+
+a:hover{
+  color: red;
+}
+a:active {
+  color: blue;
+}
