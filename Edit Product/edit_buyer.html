@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Edit Form
+    </title>
+
+    <meta charset="utf-8">
+    <meta name="keywords" content="Handloom,Handicrafts">
+    <meta name="description" content="Online shopping platform">
+    <meta http-equiv="refresh" content="300">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="01.css">
+</head>
+
+<body>
+
+    <h1>
+        <p title="Registration Details"><b>EDIT USER DETAILS</b></p>
+    </h1>
+    <hr>
+
+    <div class="form_wrapper">
+        <div class="form_container">
+            <div class="title_container">
+                <h2>Registration Form</h2>
+            </div>
+            <div class="row clearfix">
+                <form>
+                    <div class="row clearfix">
+                        <div class="col_half">
+                            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                                <input type="text" name="name" placeholder="First Name" />
+                            </div>
+                        </div>
+                        <div class="col_half">
+                            <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                                <input type="text" name="name" placeholder="Last Name" required />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i> </span>
+                        <input type="tel" id="phone" name="phone" placeholder="TelePhone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required>
+                    </div>
+                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+                        <input type="email" name="email" placeholder="Email" required />
+                    </div>
+
+                    <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                        <input type="address" name="address" placeholder="address" required />
+                    </div>
+
+                    <div class="input_field checkbox_option">
+                        <input type="checkbox" id="cb1">
+                        <label for="cb1">I agree with terms and conditions</label>
+                    </div>
+
+                    <input class="button" id="register" type="submit" value="Register" />
+                    <input class="button" id="delete" type="submit" value="Delete Account" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
